@@ -6,7 +6,7 @@
 def increase(x):
     return x + 1
  
-num = input("Enter a number: ")
+x = input("Enter a number: ")#Changed num to x
 increase(x)
 print("Your number has been increased to", x)
                         
@@ -15,7 +15,7 @@ print("Your number has been increased to", x)
 
 #2.) Correct the following code to print 1-10:  (2pts)
 
-def count_to_ten:
+def count_to_ten():#Added ()
     for i in range[10]:
         print(i)
  
@@ -55,7 +55,7 @@ print(reverse(text))
 def get_user_choice():
     while True:
         command = input("Command: ")
-        if command = f or command = m or command = s or command = d or command = q:
+        if command == "f" or command == "m" or command == "s" or command == "d" or command == "q":#Replaced = with ==, added quotations on the commands
             return command
  
         print("Hey, that's not a command. Here are your options:" )
